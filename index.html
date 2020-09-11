@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chương trình chuyển đổi tiền tệ</title>
+</head>
+<body>
+<form>
+<label>Amount<br/><input type="text" name="amount" id="amount"/></label>
+
+<select id="from">
+    <option value="1">USD</option>
+    <option value="23000">VNĐ</option>
+
+</select>
+<select id="to">
+    <option value="23000">VNĐ</option>
+    <option value="1">USD</option>
+</select>
+<input type="button" onclick="chuyendoitiente()" name="convert" value="Convert"/>
+<script src="js/index.js"></script>
+</form>
+</body>
+</html>
